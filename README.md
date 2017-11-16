@@ -1,6 +1,6 @@
 # Twitter Trend Application
 A Tweet Sentiment Analysis Application built on Node and Express. It get
-tweets from **Twitter Streaming API** and collects then on **AWS SQS**. On every tweet it uses **IBM Watson Sentiment analysis** and notifiy the WebServer with **AWS SNS** to plot on the google maps.
+tweets from **Twitter Streaming API** and collects then on **Elastic Search** and **AWS SQS**. On every tweet it uses **IBM Watson Sentiment analysis** and notifiy the WebServer with **AWS SNS** to plot on the google maps.
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ This is image of the google maps after getting the sentiments from the server an
 ## Authors
 
 * **Harshit Pareek** - Software Engineer(NYU Grad)
-Looking for new opportunites
+<br />Looking for new opportunites - contact via mail - hars.pareek@nyu.edu
 
 * **Navneet Jain** - Software Engineer(NYU Grad)
 
