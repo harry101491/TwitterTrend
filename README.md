@@ -19,7 +19,7 @@ npm start
 
 This is image of the google maps after getting the sentiments from the server and plotting them on the maps.
 
-![alt Goolge map Image](/images/sampleImage.jpeg?raw=true "Sentiment Analysis of Tweets") 
+![alt Goolge map Image](/images/sampleImage.jpeg?raw=true "Green for positive, red for negitive and blue for neutral") 
 
 ## Authors
 
