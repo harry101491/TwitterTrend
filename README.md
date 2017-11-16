@@ -23,10 +23,10 @@ This is image of the google maps after getting the sentiments from the server an
 
 ## Authors
 
-* **Harshit Pareek** - Software Engineer(NYU Grad)
+* **Harshit Pareek** - Software Engineer (NYU Grad) :smiley:
 <br />Looking for new opportunites - contact via mail - hars.pareek@nyu.edu
 
-* **Navneet Jain** - Software Engineer(NYU Grad)
+* **Navneet Jain** - Software Engineer (NYU Grad)
 
 ## License
 
