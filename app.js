@@ -5,7 +5,6 @@ var utility_function = require('./models/util_function');
 // the body parser for the parsing of the json objects
 var body_parser = require('body-parser');
 
-// var router = express.Router();
 var app = express();
 
 var port = process.env.PORT || 3000;
