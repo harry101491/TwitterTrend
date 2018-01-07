@@ -1,4 +1,4 @@
-var config = require('./config');
+var config = require('../config/dev');
 var emoji_strip = require('emoji-strip');
 var twitter = config.twitter;
 var queue_url = config.queue_url;

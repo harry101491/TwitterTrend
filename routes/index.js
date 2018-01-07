@@ -1,9 +1,9 @@
 var path = require('path');
-var search_doc = require('../models/searchDocument');
-var process_data = require('../models/process_data');
-var put_in_elasticsearch = require('../models/put_elasticsearch');
+var search_doc = require('../utilities/searchDocument');
+var process_data = require('../utilities/process_data');
+var put_in_elasticsearch = require('../utilities/put_elasticsearch');
 var Q = require('q');
-var config = require('../models/config');
+var config = require('../config/dev');
 var aws_sns = config.sns;
 
 function homePage(req, res){

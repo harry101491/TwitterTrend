@@ -1,5 +1,5 @@
 // code to put the data into the elasticsearch by the help of the promises
-var config = require('./config');
+var config = require('../config/dev');
 var elasticsearch_client_aws = config.elasticsearch_client_aws;
 var Q = require('q');
 

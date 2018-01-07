@@ -1,5 +1,5 @@
 // this is the worker file which do three jobs gets the data from the sqs, analyze from the natural_language_understanding and publish on to the sns
-var config = require('./config');
+var config = require('../config/dev');
 var queue_url = config.queue_url;
 var util = require('util');
 var aws_sqs = config.sqs;

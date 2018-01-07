@@ -1,7 +1,7 @@
 // variable declaration for getting the express and route module
 var express = require('express');
 var route = require('./routes');
-var utility_function = require('./models/util_function');
+var utility_function = require('./middleware/util_function');
 // the body parser for the parsing of the json objects
 var body_parser = require('body-parser');
 
@@ -9,7 +9,7 @@ var app = express();
 
 var port = process.env.PORT || 3000;
 
-app.use(utility_function.mutate_middleware());
+app.use(utility_function());
 
 app.use(body_parser.urlencoded({
     extended: true

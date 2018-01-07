@@ -1,5 +1,5 @@
 var Q = require('q');
-var config = require('./config');
+var config = require('../config/dev');
 // var elastic_client = config.elastic_client;
 var elasticsearch_client_aws = config.elasticsearch_client_aws;
 
